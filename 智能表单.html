@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>智能表单</title>
+    <link rel="stylesheet" href="text7-c.css" type="text/css"/>
+</head>
+<body>
+
+<form class="contact_form" action="#" method="post" name="contact_form">
+    <ul>
+        <li>
+            <h2>用户注册</h2>
+            <span class="required_notification">*表示必填项</span>
+        </li>
+        <li>
+            <label for="name">用户名:</label>
+            <input type="text" placeholder="请输入用户名" required />
+            <span class="form_hint">4-16个字符，字母/中文/数字/下划线</span>
+        </li>
+        <li>
+            <label for="email">常用邮箱:</label>
+            <input type="email" name="email" placeholder="请输入您的邮箱" required />
+            <span class="form_hint">请输入常用邮箱</span>
+        </li>
+        <li>
+            <label for="password">设置密码:</label>
+            <input type="password" name="password" placeholder="设置密码" required />
+            <span class="form_hint">6-20个字符，不能含有空格</span>
+        </li>
+        <li>
+            <label for="password">确认密码:</label>
+            <input type="password" name="password" placeholder="确认密码" required />
+            <span class="form_hint">确认密码和密码一致，6-20个字符，不能含有空格</span>
+        </li>
+        <li>
+            <button class="submit" type="submit">立即注册</button>
+        </li>
+    </ul>
+    
+</form>
+
+</body>
+</html>
